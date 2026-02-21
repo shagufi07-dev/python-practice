@@ -1,57 +1,58 @@
-# # day-004
-# print("Hello World")
-# print(5)
-# print("byeeee")
-# print(8+9)
-# print(2*3)
-# print("Shagufi Ali")
-# print("Shagufi" , "Ali")
+##BASICS
 
-# # day-005
-# # for a new line \n it is a escape sequence characters 
-# print("My name is Shagufi\nMy age is 18") # printing My name is Shagufi
-#                                           # My age is 18
-# # cmntout shrtcut  select and ctrl+/
-# # for multiline cmnt we can also enclosed the lines in tripple single or double quotes or just selcet then ctrl+/
+print("Hello World")
+print(5)
+print("byeeee")
+print(8+9)
+print(2*3)
+print("Shagufi Ali")
+print("Shagufi" , "Ali")
 
-# # \" gives us " if we wanna show it in output (if we want ' so we have to put string also on ')
-# print("My name is \"SHAGUFI\"") # printing My name is "SHAGUFI"
-# print('My name is \'SHAGUFI\'') # printing My name is 'SHAGUFI'
 
-# print("Hye", 6, 7) # printing Hye 6 7 
-# # we can also separate characters bye using sep=
-# print("Hye", 6, 7, sep= "~") # printing Hye~6~7
-# print("Shagufi", "age", 18, sep="_") # printing Shagufi_age_18
+# for a new line \n it is a escape sequence characters 
+print("My name is Shagufi\nMy age is 18") # printing My name is Shagufi
+                                          # My age is 18
+# cmntout shrtcut  select and ctrl+/
+# for multiline cmnt we can also enclosed the lines in tripple single or double quotes or just selcet then ctrl+/
 
-# # if we want something at the end use end=
-# print("name", "shagufi", sep="-", end="Bye\n") # if we dont addd \n so the next st. directly print in front of the end st. instead of new line 
-# print("age-18")  
+# \" gives us " if we wanna show it in output (if we want ' so we have to put string also on ')
+print("My name is \"SHAGUFI\"") # printing My name is "SHAGUFI"
+print('My name is \'SHAGUFI\'') # printing My name is 'SHAGUFI'
 
-# # day-006
-# a = 2 # integer int
-# b = 1.5 # floating float
-# # when we + so the data type is of same type 
-# print(a+b)
-# c = "shagufi" # string str
-# d = True # Boolen bool, also False
-# e = None # Nonetype
-# f = complex(8, 2) #complex
-# print(type(a)) # by using type() we know the datatype
-# print(type(b))
-# print(type(c))
-# print(type(d))
-# print(type(e))
-# print(type(f))
+print("Hye", 6, 7) # printing Hye 6 7 
+# we can also separate characters bye using sep=
+print("Hye", 6, 7, sep= "~") # printing Hye~6~7
+print("Shagufi", "age", 18, sep="_") # printing Shagufi_age_18
 
-# # a 'list' is a list of diff datatypes, we can change it means it is mutable
-# # a 'tuple' is also same but we can't change it means it is immutable
-# # dictionary is key value pairs storage
-# list = [8, 3.3, ["apple", "banana"]]
-# tuple = (("parrot", "sparrow"), ("rabbit", "lion"))
-# dict = {"name":"shagufi", "age":18, "CanVote":True}
-# print(list)
-# print(tuple)
-# print(dict)
+# if we want something at the end use end=
+print("name", "shagufi", sep="-", end="Bye\n") # if we dont addd \n so the next st. directly print in front of the end st. instead of new line 
+print("age-18")  
+
+
+a = 2 # integer int
+b = 1.5 # floating float
+# when we + so the data type is of same type 
+print(a+b)
+c = "shagufi" # string str
+d = True # Boolen bool, also False
+e = None # Nonetype
+f = complex(8, 2) #complex
+print(type(a)) # by using type() we know the datatype
+print(type(b))
+print(type(c))
+print(type(d))
+print(type(e))
+print(type(f))
+
+# a 'list' is a list of diff datatypes, we can change it means it is mutable
+# a 'tuple' is also same but we can't change it means it is immutable
+# dictionary is key value pairs storage
+list = [8, 3.3, ["apple", "banana"]]
+tuple = (("parrot", "sparrow"), ("rabbit", "lion"))
+dict = {"name":"shagufi", "age":18, "CanVote":True}
+print(list)
+print(tuple)
+print(dict)
 
 # airthmetic operators
 a = 5
@@ -132,20 +133,20 @@ a = int(a) #now a = 2, which is int
 print(a + b)
 
 #taking input from user
-# name = input("name:")
-# age = input("age:")
-# DOB = input("DOB:")
-# print("VEERIFIED")
-# print("Welcome", name, sep = "~") #printing Welcome~name
+name = input("name:")
+age = input("age:")
+DOB = input("DOB:")
+print("VEERIFIED")
+print("Welcome", name, sep = "~") #printing Welcome~name
 
-# val1 = input("enter val1:")
-# print(type(val1), val1) #when we take a val as input it convert in str
+val1 = input("enter val1:")
+print(type(val1), val1) #when we take a val as input it convert in str
 
-# val2 = int(input("enter val2:")) #now it just convet it in int
-# print(type(val2), val2)
+val2 = int(input("enter val2:")) #now it just convet it in int
+print(type(val2), val2)
 
-# val3 = float(input("enter val3:")) #it convert to float
-# print(type(val3), val3)
+val3 = float(input("enter val3:")) #it convert to float
+print(type(val3), val3)
 
 
 
