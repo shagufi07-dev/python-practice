@@ -12,6 +12,7 @@ The goal of this repository is to:
 
 ## 📂 Folder Structure
 
+```
 Python-Practice/
 │
 ├── 📘 basics/
@@ -33,6 +34,7 @@ Python-Practice/
 │   └── user_validator.py
 │
 └── 📝 README.md
+```
 
 ## ▶ How to Run
 
