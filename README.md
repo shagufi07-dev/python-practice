@@ -19,7 +19,8 @@ Python-Practice/
 │   ├── variables_and_basics.py
 │   ├── conditional_statements.py
 │   ├── loops.py
-│   └── strings.py
+│   ├── strings.py
+│   └── functions.py
 │
 ├── 📦 data_structures/
 │   ├── lists_and_tuples.py
@@ -28,10 +29,12 @@ Python-Practice/
 ├── 🧠 practice/
 │   ├── loops_practice.py
 │   ├── quant_practice.py
-│   └── set_dict_practice.py
+│   ├── set_dict_practice.py
+│   └── functions_practice.py
 │
 ├── 🚀 mini_projects/
-│   └── user_validator.py
+│   ├── user_validator.py
+│   └── banking_system.py
 │
 └── 📝 README.md
 ```
