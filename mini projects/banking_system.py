@@ -4,7 +4,6 @@ first_name = input("First name: ")
 last_name = input("Last name: ")
 name = first_name.capitalize() + " " + last_name.capitalize()
 
-print(name)
 while True:
   username = input("create username: ")
   if len(username) > 10:
@@ -78,7 +77,7 @@ while True:
         break
 
 bank = {
-    "username" : username,
+    "username" : username.lower(),
     "name" : name,
     "age" : age, 
     "pin" : pin,
